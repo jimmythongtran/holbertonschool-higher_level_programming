@@ -17,4 +17,4 @@ This directory contains exercises/projects for learning about Python if/else sta
 | 10-add.py | Write a function that adds two integers and returns the result. Cannot import any modules. |
 | 11-pow.py | Write a function that computes `a` to the power of `b` and return the value. Cannot import any modules. |
 | 12-fizzbuzz.py | Write a function that prints the numbers from 1 to 100 separated by spaces. For each multiple of 3, print "Fizz". For each multiple of 5, print "Buzz". For each multiple of both 3 and 5, print "FizzBuzz". Cannot import any modules. |
-
+| 100-print_tebahpla.py | Write a program that prints the alphabet, in reverse order, alternating lowercase and uppercase starting with lowercase "z", not followed by a newline. Restricted to only one `print` function with string format, one loop, and cannot import any modules. |
