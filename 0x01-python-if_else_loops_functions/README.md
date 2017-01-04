@@ -1,6 +1,7 @@
 # 0x01. Python - if/else, loops, functions
 
-This directory contains exercises/projects for learning about Python if/else statements, loops, and building functions. H/T to <a href="https://github.com/philipyoo">Philip Yoo</a>
+This directory contains exercises/projects for learning about Python if/else statements, loops, and building functions. H/T to <a href="https://github.com/philipyoo">Philip Yoo</a><br>
+
 | File | Description |
 | ---- |:-----------:|
 | 0-positive_or_negative.py | Given a random number, print to stdout is the singles digit is positive, zero, or negative. |
