@@ -1,14 +1,15 @@
 #!/usr/bin/python3
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) == 0:
+        print("{:d} argument.".format(len(sys.argv) -1)) # > 0 argument.
 
-import sys
-#import getopt
+    if len(sys.argv) == 1:
+        print("{:d} argument:".format(len(sys.argv))) # > 1 argument:
 
-# remove sys?
+    if len(sys.argv) > 1:
+        print("{:d} arguments:".format(len(sys.argv))) # > 2+ arguments:
+#end=""
+#end="s"
 
-if len(sys.argv) == 1:
-    print ("{:d} argument.".format(len(sys.argv) -1)) # > 0 argument:
-
-if len(sys.argv) > 1:
-    print ("{:d} arguments:".format(len(sys.argv))) # > 2+ arguments:
-
-#print (getopt(sys.argv[1:]))
+#print(sys.argv[]))
