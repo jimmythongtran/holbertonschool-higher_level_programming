@@ -1,23 +1,17 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) == 1:
-        print("{:d} argument.".format(len(sys.argv) -1)) # > 0 argument.
+# put len into var, cleaner
+    i = len(sys.argv) - 1
+    if i == 0:
+        print("{:d} argument.".format(i))
 
-# bake in the one-line-per-argument"
-    if len(sys.argv) == 2:
-        print("{:d} argument: {}".format(len(sys.argv) -1, (sys.argv)) # > 1 argument:
+    elif i == 1:
+        print("{:d} argument:".format(i))
 
-    if len(sys.argv) > 2:
-        print("{:d} arguments:".format(len(sys.argv) -1)) # > 2+ arguments:
+    else:
+        print("{:d} arguments:".format(i))  # 2+ arguments:
 
-#while loop to print out argumentInput numberAscending:
-#while loop to print out next argumentInput
-    for i in sys.argv:
-        print("{:d}".format(sys.argv)) #argumentInput numberAscending
-	print("{:s}".format(sys.argv)) #argumentInput
-
-#end=""
-#end="s"
-
-#print(sys.argv[]))
+    if i >= 1:
+        for n in range(0, i):
+            print("{:d}: {}".format(n + 1, sys.argv[n + 1]))  # arg#Asc, argInp
