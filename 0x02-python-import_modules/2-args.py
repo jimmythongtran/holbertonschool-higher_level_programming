@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
 #while loop to print out argumentInput numberAscending:
 #while loop to print out next argumentInput
-    for i in sys.argv
+    for i in sys.argv:
         print("{:d}".format(sys.argv)) #argumentInput numberAscending
 	print("{:s}".format(sys.argv)) #argumentInput
 
