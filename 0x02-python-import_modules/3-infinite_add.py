@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-
-
-#    from add_0 import add
-#    a = 1
-#    b = 2
-#    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+    import sys
+    sum = 0
+    size = len(sys.argv) - 1
+    for num in range(0, size):
+        sum = sum + int(sys.argv[num + 1])
+    print("{:d}".format(sum))
