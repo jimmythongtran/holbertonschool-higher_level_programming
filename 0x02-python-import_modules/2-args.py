@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-# put len into var, cleaner
     count = len(sys.argv) - 1
     if count == 0:
         print("{:d} argument.".format(count))
