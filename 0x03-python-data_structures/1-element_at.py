@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
-    for i in my_list:
+    # 0 excludes negatives
+    for i in range(0, len(my_list)):
         if i == idx:
-            print("{:d}".format(i))
+            return (my_list[idx])
+
+# good for debugging
+# print("{:d}".format(i))
