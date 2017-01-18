@@ -1,4 +1,4 @@
-mul = __import__('0-mul').mul
+>>> mul = __import__('0-mul').mul
 
 >>> mul(1, 2)
 3
@@ -34,11 +34,6 @@ Traceback (most recent call last):
 TypeError: a must be an integer
 
 >>> mul(None, None)
-Traceback (most recent call last):
-...
-TypeError: a must be an integer
-
->>> mul(None, 1)
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
