@@ -4,25 +4,41 @@ add_integer = __import__('0-add_integer').add_integer
 3
 
 >>> add_integer(4, "School")
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
 
 >>> add_integer("Holberton", 4)
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
 
 >>> add_integer("Holberton", "School")
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
 
 >>> add_integer([1, 2, 3], 2)
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
 
 >>> add_integer(2, [1, 2, 3])
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
 
 >>> add_integer({1: "yo"}, 1)
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
 
 >>> add_integer(None, None)
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
 
 >>> add_integer(None, 1)
-raise TypeError
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
