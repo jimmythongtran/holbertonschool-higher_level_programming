@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 def add_integer(a, b):
-    if type(a) != int and type(a) != float:
+    if not (isinstance(a, int) or isinstance(a, float)):
         raise TypeError("a must be an integer")
-    if type(b) != int and type(b) != float:
+    if not (isinstance(b, int) or isinstance(b, float)):
         raise TypeError("b must be an integer")
     return int(a + b)
 
