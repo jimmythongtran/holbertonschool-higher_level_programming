@@ -1,4 +1,4 @@
->>> mul = __import__('0-mul').mul
+>>> mul = __import__('1-mul').mul
 
 >>> mul(1, 2)
 3
