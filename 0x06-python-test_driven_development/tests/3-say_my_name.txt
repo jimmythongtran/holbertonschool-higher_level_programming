@@ -1,0 +1,39 @@
+>>> mul = __import__('0-mul').mul
+
+>>> mul(1, 2)
+3
+
+>>> mul(4, "School")
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> mul("Holberton", 4)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> mul("Holberton", "School")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> mul([1, 2, 3], 2)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> mul(2, [1, 2, 3])
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> mul({1: "yo"}, 1)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> mul(None, None)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
