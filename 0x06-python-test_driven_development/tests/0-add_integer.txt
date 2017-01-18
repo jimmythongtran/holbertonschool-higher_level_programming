@@ -1,4 +1,4 @@
-add_integer = __import__('0-add_integer').add_integer
+>>> add_integer = __import__('0-add_integer').add_integer
 
 >>> add_integer(1, 2)
 3
@@ -34,11 +34,6 @@ Traceback (most recent call last):
 TypeError: a must be an integer
 
 >>> add_integer(None, None)
-Traceback (most recent call last):
-...
-TypeError: a must be an integer
-
->>> add_integer(None, 1)
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer
