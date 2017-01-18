@@ -1,0 +1,20 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text_indentation("text")
+text
+
+>>> text_indentation(1)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation([1, 2, 3])
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+
+>>> text_indentation()
+Traceback (most recent call last):
+...
+<BLANKLINE>
