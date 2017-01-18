@@ -1,0 +1,28 @@
+add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(1, 2)
+3
+
+>>> add_integer(4, "School")
+raise TypeError
+
+>>> add_integer("Holberton", 4)
+raise TypeError
+
+>>> add_integer("Holberton", "School")
+raise TypeError
+
+>>> add_integer([1, 2, 3], 2)
+raise TypeError
+
+>>> add_integer(2, [1, 2, 3])
+raise TypeError
+
+>>> add_integer({1: "yo"}, 1)
+raise TypeError
+
+>>> add_integer(None, None)
+raise TypeError
+
+>>> add_integer(None, 1)
+raise TypeError
