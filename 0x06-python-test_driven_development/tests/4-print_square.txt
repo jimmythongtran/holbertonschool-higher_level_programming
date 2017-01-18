@@ -5,3 +5,19 @@
 ####
 ####
 ####
+
+
+>>> print_square(0.5)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(20.34)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(-8.32)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
