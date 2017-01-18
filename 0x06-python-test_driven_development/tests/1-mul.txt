@@ -1,0 +1,29 @@
+mul = __import__('1-mul').mul
+"""
+>>> mul(1, 2)
+2
+
+>>> mul(4, "School")
+raise TypeError
+
+>>> mul("Holberton", 4)
+raise TypeError
+
+>>> mul("Holberton", "School")
+raise TypeError
+
+>>> mul([1, 2, 3], 2)
+raise TypeError
+
+>>> mul(2, [1, 2, 3])
+raise TypeError
+
+>>> mul({1: "yo"}, 1)
+raise TypeError
+
+>>> mul(None, None)
+raise TypeError
+
+>>> mul(None, 1)
+raise TypeError
+"""
