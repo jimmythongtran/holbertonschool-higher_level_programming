@@ -5,6 +5,7 @@ that takes in two variables and returns their sum
 Note: value can only be integers, not float or otherwise
 """
 
+
 def add_integer(a, b):
     """
     returns the sum of two integer variables
