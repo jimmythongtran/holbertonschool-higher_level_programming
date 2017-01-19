@@ -4,6 +4,8 @@ This is the print_square function
 that iterates through the length of a square
 and prints # characters
 """
+
+
 def print_square(size):
     """
     prints # characters
