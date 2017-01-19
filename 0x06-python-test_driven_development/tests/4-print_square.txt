@@ -1,4 +1,12 @@
+``Print square`` module
+=======================
+
+Using ``print_square``
+
+Importing ``print_square`` from ``4-print-square``
 >>> print_square = __import__('4-print_square').print_square
+
+Using print_square:
 
 >>> print_square(4)
 ####
