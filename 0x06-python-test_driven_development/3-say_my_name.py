@@ -5,6 +5,7 @@ that takes in two string variables and returns
 the full string "My name is first_name last_name"
 """
 
+
 def say_my_name(first_name, last_name=""):
     """
     returns the full string "My name is first_name last_name
