@@ -14,7 +14,9 @@ def add_integer(a, b):
         raise TypeError("a must be an integer")
     if not (isinstance(b, int) or isinstance(b, float)):
         raise TypeError("b must be an integer")
-    return int(a + b)
+    a = int(a)
+    b = int(b)
+    return (a + b)
 
 if __name__ == '__main__':
     import doctest
