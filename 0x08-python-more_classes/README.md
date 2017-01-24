@@ -2,7 +2,7 @@
 Description
 
 ## New commands / functions used:
-``gcc``
+``pep8``
 
 ## Helpful Links
 * [link](https://python.swaroopch.com/oop.html)
