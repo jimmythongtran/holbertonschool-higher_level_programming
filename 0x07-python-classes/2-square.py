@@ -8,7 +8,7 @@ This is a Square class defined by size=0
 
 class Square:
     """
-    This is a square class
+    __size: private field to protect data
     """
     def __init__(self, size=0):
         if type(size) is not int:
