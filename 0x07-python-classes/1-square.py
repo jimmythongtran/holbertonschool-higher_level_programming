@@ -8,7 +8,7 @@ This is a Square class defined by size
 
 class Square:
     """
-    This is the square class
+    __init__ creates space in memory
     """
     def __init__(self, size):
         self.__size = size
