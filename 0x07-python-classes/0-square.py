@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-REPLACE
-    return (0)
-print(REPLACE)
+""" This is a Square class"""
+
+class Square:
+    pass
