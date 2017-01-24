@@ -1,4 +1,17 @@
 #!/usr/bin/python3
-REPLACE
-    return (0)
-print(REPLACE)
+"""
+This is the square module
+
+This is a Square class defined by size=0
+"""
+
+class Square:
+    """
+    This is a square class
+    """
+    def __init__(self, size=0):
+        if not (isinstance(size, int)):
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = size
