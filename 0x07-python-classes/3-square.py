@@ -2,7 +2,7 @@
 """
 This is the square module
 
-This is a Square class defined by size=0
+This is a Square class that calculates area based on size
 """
 
 
