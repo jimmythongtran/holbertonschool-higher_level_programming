@@ -5,6 +5,7 @@ This is the square module
 This is a Square class defined by size=0
 """
 
+
 class Square:
     """
     This is a square class
