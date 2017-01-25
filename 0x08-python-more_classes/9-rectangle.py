@@ -7,6 +7,8 @@ This is a Rectangle class that defines a rectangle.
 
 
 class Rectangle:
+    number_of_instances = 0
+    print_symbol = "#"
     """
     This is a rectangle class
     """
@@ -21,6 +23,7 @@ class Rectangle:
             raise TypeError("height must be an integer")
         if int(height) < 0:
             raise ValueError("height must be >= 0")
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -71,4 +74,5 @@ class Rectangle:
         return ("Rectangle(" + width + ", " + height + ")")
 
     def __del__(self):
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
