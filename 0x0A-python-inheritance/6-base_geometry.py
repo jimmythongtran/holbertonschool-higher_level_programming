@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-REPLACE
-    return (0)
-print(REPLACE)
+class BaseGeometry:
+    def area(self):
+        raise Exception("area() is not implemented")
+    pass

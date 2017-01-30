@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-def inherits_from(obj, a_class):
-    return (0)
-print(inherits_from(obj, a_class))
+def is_kind_of_class(obj, a_class):
+    if isinstance(obj, a_class):
+        return True
+    return False
