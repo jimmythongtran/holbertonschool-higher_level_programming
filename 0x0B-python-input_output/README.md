@@ -2,7 +2,7 @@
 Description
 
 ## New commands / functions used:
-``gcc``
+``pep8``
 
 ## Helpful Links
 * [link](https://docs.python.org/3.4/tutorial/inputoutput.html#reading-and-writing-files)
