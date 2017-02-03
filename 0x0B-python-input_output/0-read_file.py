@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def read_file(filename=REPLACEquot;REPLACEquot;):
-    return (0)
-print(def read_file(filename=REPLACEquot;REPLACEquot;))
+def read_file(filename=""):
+    with open(filename, encoding="UTF8") as f:
+        print(f.read(), end="")
