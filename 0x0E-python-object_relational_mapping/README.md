@@ -4,6 +4,24 @@ Description
 ## New commands / functions used:
 ``pep8``
 
+### Install MySQLdb module
+``$ sudo apt-get install python3-dev``
+``$ sudo apt-get install libmysqlclient-dev``
+``$ pip3 install mysqlclient``
+``...``
+``$ python3``
+``>>> import MySQLdb``
+``>>> MySQLdb.__version__`` 
+``'1.3.10'``
+
+### Install SQLAlchemy module
+``$ pip3 install SQLAlchemy``
+``...``
+``$ python3``
+``>>> import sqlalchemy``
+``>>> sqlalchemy.__version__``
+``'1.1.6'``
+
 ## Helpful Links
 * [link](https://www.fullstackpython.com/object-relational-mappers-orms.html)
 * [link](https://mysqlclient.readthedocs.io/en/latest/index.html)
