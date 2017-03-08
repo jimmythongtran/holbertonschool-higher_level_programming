@@ -3,7 +3,7 @@
 This is the '1-filter_states' module
 
 1-filter_states connects to the hbtn_0e_0_usa database and
-retrieves a state names beginning with 'N' via Python script
+retrieves state names beginning with 'N' via Python script
 '''
 
 import MySQLdb
