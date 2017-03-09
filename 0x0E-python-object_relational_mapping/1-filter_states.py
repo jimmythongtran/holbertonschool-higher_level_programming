@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-"""
-This is the '1-filter_states' module
-
-1-filter_states connects to the hbtn_0e_0_usa database and
-retrieves state names beginning with 'N' via Python script
+"""This is the '1-filter_states' module
+USAGE: ./1-filter_states mysqlname mysqlpw db_name
 """
 if __name__ == "__main__":
     import MySQLdb
