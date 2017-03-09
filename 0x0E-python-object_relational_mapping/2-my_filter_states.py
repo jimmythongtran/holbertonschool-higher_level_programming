@@ -17,7 +17,8 @@ if __name__ == "__main__":
         WHERE name = '{:s}' ORDER BY states.id ASC".format(sys.argv[4]))
 
     for info in cur.fetchall():
-        print(info)
+        if (info[1] == sys.argv[4]):
+            print(info)
 
     cur.close()
     db.close()
