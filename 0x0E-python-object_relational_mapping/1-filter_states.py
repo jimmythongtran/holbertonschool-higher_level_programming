@@ -14,7 +14,8 @@ if __name__ == '__main__':
             WHERE name LIKE 'N%' ORDER BY states.id ASC""")
 
     for info in cur.fetchall():
-        print(info)
+        if info[1][0] == 'N':
+            print(info)
 
     cur.close()
     db.close()
