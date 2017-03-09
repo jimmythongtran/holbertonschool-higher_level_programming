@@ -14,11 +14,14 @@ if __name__ == "__main__":
 
     injection = sys.argv[4].split(";")
     cur = db.cursor()
-    cur.execute("SELECT * FROM states\
-            WHERE name = %s ORDER BY id ASC", (injection[0],))
+    cur.execute("SELECT * FROM cities JOIN states\
+            ON states.id = cities.state_id  ORDER BY id ASC")
 
+    states = list()
     for info in cur.fetchall():
-        print(info)
+        if data[4] == injection[0]:
+            state.append(data[2])
 
+    print(", ".join(state))
     cur.close()
     db.close()
