@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-'''This is the '0-select_states' module
+"""This is the '0-select_states' module
 0-select_states connects to the hbtn_0e_0_usa database and
 retrieves a specified MySQL query via Python script
-'''
+"""
 import MySQLdb
 import sys
 
