@@ -2,7 +2,7 @@
 '''
 This is the '4-cities_by_state' module
 
-4-cities_by_state lists all cities from the db hbtn_0e_4_usa 
+4-cities_by_state lists all cities from the db hbtn_0e_4_usa
 '''
 if __name__ == "__main__":
     import MySQLdb
@@ -12,8 +12,8 @@ if __name__ == "__main__":
                          user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
 
     cur = db.cursor()
-    cur.execute("SELECT * FROM cities\
-            ORDER BY cities.id ASC")
+    cur.execute("SELECT cities.id, cities.name, states.name FROM states\
+            JOIN cities ON cities.state_id = states.id ORDER BY cities.id ASC")
 
     for info in cur.fetchall():
         print(info)
