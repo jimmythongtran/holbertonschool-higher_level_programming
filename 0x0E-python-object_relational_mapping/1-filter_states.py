@@ -2,7 +2,7 @@
 """This is the '1-filter_states' module
 USAGE: ./1-filter_states mysqlname mysqlpw db_name
 """
-if __name__ == "__main__":
+if __name__ == '__main__':
     import MySQLdb
     import sys
 
