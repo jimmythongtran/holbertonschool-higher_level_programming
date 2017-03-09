@@ -15,7 +15,7 @@ if __name__ == "__main__":
     cur = db.cursor()
     cur.execute("SELECT * FROM states\
         WHERE name = '{:s}' ORDER BY\
-        states.id ASC".format(sys.argv[4].split";"))
+        states.id ASC".format(sys.argv[4],))
 
     for info in cur.fetchall():
         print(info)
