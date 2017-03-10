@@ -20,4 +20,4 @@ if __name__ == "__main__":
 
     for entryDeletion in session.query(State).filter(State.name.like('%a%')):
         session.delete(entryDeletion)
-        session.commit()
+    session.commit()
