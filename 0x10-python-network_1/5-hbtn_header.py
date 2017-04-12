@@ -1,4 +1,13 @@
 #!/usr/bin/python3
-REPLACE
-    return (0)
-print(REPLACE)
+"""
+this takes in a URL, sends a request to the URL and displays
+the value of the variable X-Request-Id in response header
+using requests
+"""
+import requests
+import sys
+
+
+if __name__ == "__main__":
+    r = requests.get(sys.argv[1])
+    print("{}".format(r.headers['x-request-id']))
